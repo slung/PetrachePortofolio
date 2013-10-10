@@ -3,9 +3,9 @@
 myApp.controller('HomeCtrl', function($scope, $modal){
   $scope.items = ['item1', 'item2', 'item3'];
     $scope.selected = {};
-    $scope.open = function () {
+    $scope.open = function (modalTemplate) {
         var modalInstance = $modal.open({
-            templateUrl: 'myModalContent.html',
+            templateUrl: modalTemplate,
             scope: $scope
         });
         console.log('modal opened');
