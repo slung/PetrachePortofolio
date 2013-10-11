@@ -1,6 +1,6 @@
 /* Controllers */
 
-myApp.controller('HomeCtrl', function($scope, $modal){
+myApp.controller('HomeCtrl', function($scope, $modal, $http){
 	$scope.open = function (type, modalTemplate) {
 		
 		switch( type )
@@ -29,8 +29,9 @@ myApp.controller('HomeCtrl', function($scope, $modal){
 		
 		$scope.campaign = campaign;
 		
-		JSONP.get( "images/portofolio/" + campaign + "/info.js" , {}, function( data ) {
+		$http.get( "images/portofolio/" + campaign + "/info.json").success(function( data ){
 			
+			data = data[0];
 			var slides = $scope.slides = [];
 			
 			for ( var i = 1; i <= data.count; i++ )
@@ -48,8 +49,7 @@ myApp.controller('HomeCtrl', function($scope, $modal){
 				controller: ModalInstanceCtrl,
 				templateUrl: $scope.campaign + ".html",
 				scope: $scope
-			}); 
-			
+			});
 		});
 	};
 });
