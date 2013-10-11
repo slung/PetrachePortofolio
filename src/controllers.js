@@ -29,7 +29,7 @@ myApp.controller('HomeCtrl', function($scope, $modal, $http){
 		
 		$scope.campaign = campaign;
 		
-		$http.get( "images/portofolio/" + campaign + "/info.json").success(function( data ){
+		$http.get( "images/portofolio/" + campaign + "/info.txt").success(function( data ){
 			
 			data = data[0];
 			var slides = $scope.slides = [];
