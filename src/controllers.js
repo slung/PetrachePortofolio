@@ -49,7 +49,7 @@ myApp.controller('HomeCtrl', function($scope, $modal, $http){
 				controller: ModalInstanceCtrl,
 				templateUrl: $scope.campaign + ".html",
 				scope: $scope
-			});
+			}); 
 		});
 	};
 });
