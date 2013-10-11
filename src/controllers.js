@@ -1,21 +1,65 @@
 /* Controllers */
 
 myApp.controller('HomeCtrl', function($scope, $modal){
-  $scope.items = ['item1', 'item2', 'item3'];
-    $scope.selected = {};
-    $scope.open = function (modalTemplate) {
-        var modalInstance = $modal.open({
-            templateUrl: modalTemplate,
-            scope: $scope
-        });
-        console.log('modal opened');
-        modalInstance.result.then(function () {
-            console.log($scope.selected);
-        }, function () {
-            console.log('Modal dismissed at: ' + new Date());
-        });
-    };
+	$scope.open = function (type, modalTemplate) {
+		
+		switch( type )
+		{
+			case "carousel":{
+				
+				$scope.openSlidesForCampaign(modalTemplate);
+				
+				break;
+			}
+			default:{
+				var modalInstance = $modal.open({
+					controller: ModalInstanceCtrl,
+					templateUrl: modalTemplate + ".html",
+					scope: $scope
+				});
+			}
+		}
+		
+		$scope.carouselInterval = 5000;
+		var slides = $scope.slides = [];
+			
+	};
+	
+	$scope.openSlidesForCampaign = function( campaign ){
+		
+		$scope.campaign = campaign;
+		
+		JSONP.get( "images/portofolio/" + campaign + "/info.js" , {}, function( data ) {
+			
+			var slides = $scope.slides = [];
+			
+			for ( var i = 1; i <= data.count; i++ )
+			{
+				var image = "img" + i;
+				
+				slides.push({
+					src: "images/portofolio/" + $scope.campaign + "/" + image + ".jpg",
+					portofolio: data.portofolio,
+					text: data[image]
+				});
+			}
+			
+			var modalInstance = $modal.open({
+				controller: ModalInstanceCtrl,
+				templateUrl: $scope.campaign + ".html",
+				scope: $scope
+			}); 
+			
+		});
+	};
 });
+
+var ModalInstanceCtrl = function ($scope, $modalInstance) {
+
+  $scope.close = function () {
+    $modalInstance.close();
+  };
+};
 
 function AboutCtrl($scope) {
   
