@@ -1,6 +1,11 @@
 /* Controllers */
 
 myApp.controller('HomeCtrl', function($scope, $modal, $http){
+    
+    $scope.dynamicWordMouseOver = function () {
+        
+    }
+    
 	$scope.open = function (type, modalTemplate) {
 		
 		switch( type )
