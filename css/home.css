@@ -1,0 +1,153 @@
+#home-container
+{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+#home-container #man-container
+{
+    width: 250px;
+    height: 100%;
+    
+    position: relative;
+    
+    margin: 0 auto;
+}
+
+#home-container #man-container #man
+{
+    width: 250px !important;
+    
+    position: absolute;
+    top: 120px;
+}
+
+#home-container #man-container #watch
+{
+    width: 30px;
+    
+    position:absolute;
+    top: 419px;
+    left: 7px;
+    
+    cursor:pointer;
+}
+
+#home-container #man-container .dynamic-words
+{
+    position:absolute;
+    cursor:pointer;
+    
+    z-index:1;
+}
+
+#home-container #man-container .dynamic-words:hover
+{
+    background-color:red;
+    z-index:9999;
+}
+
+
+#home-container #man-container .head#hard-to-say
+{
+    width: 59px;
+    
+    top: 205px;
+    left: 93px;
+}
+
+#home-container #man-container .head#hard-to-say:hover
+{
+    width: 89px;
+    left: 79px;
+}
+
+#home-container #man-container .head#listen
+{
+    width: 10px;
+    
+    top: 169px;
+    left: 152px;
+}
+
+#home-container #man-container .head#listen:hover
+{
+    width: 15px;
+}
+
+#home-container #man-container .head#lively
+{
+    width: 15px;
+    
+    top: 157px;
+    left: 145px;
+}
+
+#home-container #man-container .head#lively:hover
+{
+    width: 35px;
+    
+    top: 147px;
+    left: 135px;
+}
+
+#home-container #man-container .head#mind-boggles
+{
+    width: 60px;
+    
+    top: 139px;
+    left: 92px;
+}
+
+#home-container #man-container .head#mind-boggles:hover
+{
+    width:90px;
+    
+    left:79px;
+}
+
+#home-container #man-container .head#opinions
+{
+    width: 36px;
+    
+    top: 149px;
+    left: 108px;
+}
+
+#home-container #man-container .head#opinions:hover
+{
+    width: 66px;
+    left: 91px;
+}
+
+#home-container #man-container .head#story-teller
+{
+    width: 64px;
+    
+    top: 198px;
+    left: 91px;
+}
+
+#home-container #man-container .head#story-teller:hover
+{
+    width: 94px;
+    left: 77px;
+}
+
+#home-container #man-container .head#word-market
+{
+    width: 40px;
+    
+    top: 177px;
+    left: 115px;
+}
+
+#home-container #man-container .head#word-market:hover
+{
+    width: 70px;
+    
+    left: 96px;
+}

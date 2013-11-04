@@ -1,37 +1,17 @@
 <div id="home-container">
 	
-	<button type="button" class="btn btn-primary btn-large" ng-click="open('default', 'myModalContent')">Open video</button>
-	<button type="button" class="btn btn-warning btn-large" ng-click="open('carousel', '13th_street')">Open carousel</button>
-	
-	<script type="text/ng-template" id="myModalContent.html">
-        <div class="modal-header">
-            <h3>Portofolio</h3>
-        </div>
-        <iframe src="//player.vimeo.com/video/64684197" width="560" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        <div class="modal-footer">
-            <button class="btn btn-primary disabled" ng-click="fullScreen()">Full Screen</button>
-            <button class="btn btn-danger" ng-click="close()">Close</button>
-        	<!-- <a href="#" class="btn btn-danger" ng-click="close()"><i class="icon-white icon-remove"></i> Close</a> -->
-        </div>
-    </script>
-	
-	<script type="text/ng-template" id="13th_street.html">
-        <div class="modal-header">
-            <h3>Portofolio</h3>
-        </div>
-		<carousel interval="carouselInterval">
-			<slide ng-repeat="slide in slides">
-				<img ng-src="{{slide.src}}" style="margin:auto; max-height: 500px">
-				<div class="carousel-caption">
-					<h4>{{slide.portofolio}}</h4>
-					<p>{{slide.text}}</p>
-				</div>
-			</slide>
-		</carousel>
-        <div class="modal-footer">
-         	<button class="btn btn-primary disabled" ng-click="fullScreen()">Full Screen</button>
-            <button class="btn btn-danger" ng-click="close()">Close</button>
-        </div>
-    </script>
-	
+	<div id="menu"></div>
+    <div id="man-container">
+        <img id="man" src="../images/site/static-words-man.png" />
+        <img id="watch" src="../images/site/watch.png" title="Pressed with time? Click me!" />
+        
+        <!--Head images-->
+        <img id="mind-boggles" class="dynamic-words head" title="Mind boggles"  src="../images/site/dynamic-words/head/mind-boggles.png" />
+        <img id="opinions" class="dynamic-words head" title="Opinions" src="../images/site/dynamic-words/head/opinions.png" />
+        <img id="lively" class="dynamic-words head" title="Lively" src="../images/site/dynamic-words/head/lively.png" />
+        <img id="word-market" class="dynamic-words head" title="Word market" src="../images/site/dynamic-words/head/word-market.png" />
+        <img id="listen" class="dynamic-words head" title="Listen" src="../images/site/dynamic-words/head/listen.png" />
+        <img id="story-teller" class="dynamic-words head" title="Story teller" src="../images/site/dynamic-words/head/story-teller.png" />
+        <img id="hard-to-say" class="dynamic-words head" title="Hard to say" src="../images/site/dynamic-words/head/hard-to-say.png" />
+    </div>
 </div>
