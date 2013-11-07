@@ -1,6 +1,14 @@
 /* Controllers */
 
+function LandingPageCtrl($scope, $routeParams, $location) {
+    $scope.changeView = function (view) {
+        $location.path(view);
+    };
+};
+
 myApp.controller('HomeCtrl', function($scope, $modal, $http){
+    
+    
     
     $scope.dynamicWordMouseOver = function () {
         
@@ -66,6 +74,7 @@ var ModalInstanceCtrl = function ($scope, $modalInstance) {
   };
 };
 
+
 function AboutCtrl($scope) {
   
 };
@@ -74,5 +83,6 @@ function ContactCtrl($scope) {
   
 };
 
+myApp.controller('LandingPageCtrl', ['$scope', '$routeParams', '$location', LandingPageCtrl]);
 myApp.controller('AboutCtrl', ['$scope', AboutCtrl]);
 myApp.controller('ContactCtrl', ['$scope', ContactCtrl]);

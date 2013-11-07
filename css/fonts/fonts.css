@@ -1,0 +1,18 @@
+/* For IE8 */
+@font-face{
+	font-family:'MenInBlack';
+	src: url('MenInBlack.eot');
+		 
+	font-weight:normal;
+	font-style:normal;
+}
+
+/* Other browsers */
+@font-face{
+	font-family:'MenInBlack';
+	src: url('MenInBlack.ttf'),
+		 url('MenInBlack.woff');
+		 
+	font-weight:normal;
+	font-style:normal;
+}

@@ -8,7 +8,9 @@
 		<link rel="stylesheet" href="css/bootstrap/bootstrap.icon-large.min.css">
 		<link rel="stylesheet" href="css/supersized/supersized.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/supersized/supersized.shutter.css" type="text/css" media="screen" />
+        <link rel="stylesheet" href="css/grids/grids-min.css" type="text/css" media="screen" />
 		<link rel="stylesheet" href="css/app.css">
+        <link rel="stylesheet" href="css/landing-page.css">
         <link rel="stylesheet" href="css/home.css">
 		
 		
@@ -32,7 +34,7 @@
 	</head>
 	<body>
 		
-		<div ng-view></div>
+		<div class="container" ng-view ng-animate="{enter: 'view-enter', leave: 'view-leave'}"></div>
 	
 	</body>
 </html>
