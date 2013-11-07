@@ -2,7 +2,6 @@
 
 #home-container
 {
-    width: 100%;
     height: 675px;
     
     position: absolute;
@@ -11,48 +10,60 @@
     right: 0px;
     left: 0px;
     
-    margin: auto;
+    font-size:120px;
+    
+    margin: auto 0;
 }
 
-#home-container #menu
+#home-container #man
 {
-    height: 50px;
+    width: 250px !important;
+    height: 675px !important;
     
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    left: 0px;
-    
-    margin: auto;
-    padding:0 50px;
-    
-    font-size:100px;
+    position:absolute;
+    left: 50%;
+    margin-left: -145px;
 }
 
-#home-container #menu .menu-item:hover
+#home-container #menu-left
+{
+    width: 50%;
+    text-align: right;
+    margin-top: 315px;
+}
+
+#home-container #menu-left .menu-item
+{
+    margin-right: 60px;
+    width: 100px;
+    text-align: left;
+}
+
+#home-container #menu-left #about
+{
+    margin-right:145px;
+}
+
+#home-container #menu-right
+{
+    width:50%;
+    text-align:left;
+    margin-top: 315px;
+}
+
+#home-container #menu-right .menu-item
+{
+    margin-left: 60px;
+    width: 100px;
+    text-align: right;
+}
+
+#home-container #menu-right #contact
+{
+    margin-left:215px;
+}
+
+#home-container .menu-item:hover
 {
     cursor:pointer;
-}
-
-#home-container #menu .left
-{
-    text-align:left;
-}
-
-#home-container #menu .right
-{
-    text-align:right;
-}
-
-#home-container #menu .menu-item.left
-{
-    margin-right: 150px;
-    width: 70px;
-}
-
-#home-container #menu .menu-item.right
-{
-    margin-left: 150px;
-    width: 70px;
 }

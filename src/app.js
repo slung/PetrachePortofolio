@@ -1,6 +1,6 @@
 /* App Module */
 
-var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ui.bootstrap']).
+var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap']).
   config(['$routeProvider', function($routeProvider) {
   $routeProvider.
       when('/landing-page', {templateUrl: 'partials/landing-page.html',   controller: 'LandingPageCtrl'}).

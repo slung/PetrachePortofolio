@@ -15,8 +15,14 @@
 		
 		
 		<!-- AngularJS scripts -->
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular-animate.min.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular-route.min.js"></script>
+<!--
 		<script src="libs/angular/angular.js"></script>
 		<script src="libs/angular/angular-route.min.js"></script>
+-->
+<!--        <script src="libs/angular/angular-animate.min.js"></script>-->
 		<script src="libs/bootstrap/ui-bootstrap-tpls-0.6.0.min.js"></script>
 		<!-- <script src="libs/bootstrap/bootstrap.js"></script> -->
 		
@@ -34,7 +40,7 @@
 	</head>
 	<body>
 		
-		<div class="container" ng-view ng-animate="{enter: 'view-enter', leave: 'view-leave'}"></div>
+		  <div ng-view class="view-animate"></div>
 	
 	</body>
 </html>
