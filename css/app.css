@@ -2,6 +2,13 @@
 @import url(fonts/fonts.css);
 
 /* Generic */
+
+a, a:hover, a:focus
+{
+    color: #FFFFFF !important;
+    text-decoration:none !important;
+}
+
 body
 {
     position: absolute;
@@ -33,9 +40,17 @@ body
 
 }
 
-.modal.fade.in
+.modal
 {
-	top: 40% !important;
+    width: 600px;
+    height: 337px;
+    overflow: hidden;
+    border: none !important;
+    outline: none !important;
+    left: 50%;
+    margin-left:-300px;
+    top: 50% !important;
+    margin-top: -168px;
 }
 
 .carousel
@@ -60,8 +75,8 @@ body
 
  /*Animations */ 
 .view-animate.ng-enter, .view-animate.ng-leave {
-  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
-  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.3s;
  
   display:block;
   width:100%;
