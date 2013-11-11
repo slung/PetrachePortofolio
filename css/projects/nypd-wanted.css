@@ -1,0 +1,16 @@
+#nypd-wanted .media-container img
+{
+    margin-bottom:20px;
+}
+
+#nypd-wanted .title-container .title #left
+{
+    width:170px;
+    line-height:60px !important;
+}
+
+#nypd-wanted .title-container .title #right
+{
+    width:800px;
+    line-height:60px !important;
+}

@@ -1,15 +1,15 @@
 <div id="home-container" class="yui3-g">
     <div id="menu-left" class="yui3-u">
-        <a href="home" id="home" class="menu-item yui3-u">HOME</a>
-        <a href="work" id="work" class="menu-item yui3-u">WORK</a>
-        <a href="about" id="about" class="menu-item yui3-u">ABOUT</a>
+        <div id="home" class="menu-item yui3-u" ng-click="changeView('home')">HOME</div>
+        <div id="projects" class="menu-item yui3-u" ng-click="changeView('projects')">WORK</div>
+        <div id="about" class="menu-item yui3-u" ng-click="changeView('about')">ABOUT</div>
     </div>
     
-    <img id="man" src="../images/site/empty-man-with-watch.png" />
+    <img id="man" src="../images/site/empty-man-with-watch-new.png" />
     
     <div id="menu-right" class="yui3-u">
-        <a href="contact" id="contact" class="menu-item yui3-u">CONTACT</a>
-        <a href="#" id="blog" class="menu-item yui3-u">BLOG</a>
-        <a href="resume" id="resume" class="menu-item yui3-u">RESUME</a>
+        <div id="contact" class="menu-item yui3-u" ng-click="changeView('contact')">CONTACT</div>
+        <div id="blog" class="menu-item yui3-u">BLOG</div>
+        <div id="resume" class="menu-item yui3-u" ng-click="changeView('resume')">RESUME</div>
     </div>
 </div>

@@ -1,18 +1,51 @@
 /* For IE8 */
 @font-face{
-	font-family:'MenInBlack';
-	src: url('MenInBlack.eot');
-		 
-	font-weight:normal;
-	font-style:normal;
+	font-family:'GothamBold';
+	src: url('GothamBold.eot');
 }
 
 /* Other browsers */
 @font-face{
-	font-family:'MenInBlack';
-	src: url('MenInBlack.ttf'),
-		 url('MenInBlack.woff');
-		 
-	font-weight:normal;
-	font-style:normal;
+	font-family:'GothamBold';
+	src: url('GothamBold.ttf'),
+		 url('GothamBold.woff');
+}
+
+/* For IE8 */
+@font-face{
+	font-family:'GothamBook';
+	src: url('GothamBook.eot');
+}
+
+/* Other browsers */
+@font-face{
+	font-family:'GothamBook';
+	src: url('GothamBook.ttf'),
+		 url('GothamBook.woff');
+}
+
+/* For IE8 */
+@font-face{
+	font-family:'IrmaBlack';
+	src: url('IrmaBlack.eot');
+}
+
+/* Other browsers */
+@font-face{
+	font-family:'IrmaBlack';
+	src: url('IrmaBlack.ttf'),
+		 url('IrmaBlack.woff');
+}
+
+/* For IE8 */
+@font-face{
+	font-family:'SketchetikLight';
+	src: url('SketchetikLight.eot');
+}
+
+/* Other browsers */
+@font-face{
+	font-family:'SketchetikLight';
+	src: url('SketchetikLight.ttf'),
+		 url('SketchetikLight.woff');
 }

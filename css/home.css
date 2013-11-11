@@ -10,7 +10,8 @@
     right: 0px;
     left: 0px;
     
-    font-size:120px;
+    font-family:'GothamBook';
+    font-size:28px;
     
     margin: auto 0;
 }
@@ -22,8 +23,20 @@
     
     position:absolute;
     left: 50%;
-    margin-left: -126px;
-    margin-top: 5px;
+    margin-left: -129px;
+    margin-top: 3px;
+}
+
+#home-container .menu-item
+{
+    width: 115px;
+    opacity:0.8;
+}
+
+#home-container .menu-item:hover
+{
+    opacity:1;
+    cursor:pointer;
 }
 
 #home-container #menu-left
@@ -35,8 +48,7 @@
 
 #home-container #menu-left .menu-item
 {
-    margin-right: 7%;
-    width: 100px;
+    margin-right:25px;
     text-align: left;
 }
 
@@ -54,17 +66,11 @@
 
 #home-container #menu-right .menu-item
 {
-    margin-left: 7%;
-    width: 100px;
+    margin-left:25px;
     text-align: right;
 }
 
 #home-container #menu-right #contact
 {
-    margin-left:215px;
-}
-
-#home-container .menu-item:hover
-{
-    cursor:pointer;
+    margin-left:145px;
 }

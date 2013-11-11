@@ -1,0 +1,11 @@
+#unicef-second-hand .title-container .title
+{
+    font-size:35px;
+}
+
+#unicef-second-hand .title-container .logo
+{
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 8px;
+}

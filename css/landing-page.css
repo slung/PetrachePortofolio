@@ -33,11 +33,11 @@
 
 #landing-page-container #man-container #watch
 {
-    width: 30px;
+    width: 31px;
     
     position:absolute;
-    top: 321px;
-    left: 0px;
+    top: 322px;
+    left: -3px;
 }
 
 #landing-page-container #man-container #watch:hover
@@ -83,8 +83,8 @@
 {
     width: 11px;
     
-    top: 49px;
-    left: 153px;
+    top: 47px;
+    left: 151px;
 }
 
 #landing-page-container #man-container .head#listen:hover
@@ -102,8 +102,8 @@
 {
     width: 64px;
     
-    top: 80px;
-    left: 91px;
+    top: 78px;
+    left: 89px;
 }
 
 #landing-page-container #man-container .head#story-teller:hover
@@ -134,8 +134,8 @@
 {
     width: 43px;
     
-    top: 155px;
-    left: 126px;
+    top: 154px;
+    left: 125px;
 }
 
 #landing-page-container #man-container .waist#my-human-truths:hover
@@ -150,8 +150,8 @@
 {
     width: 53px;
     
-    top: 171px;
-    left: 171px;
+    top: 170px;
+    left: 170px;
 }
 
 #landing-page-container #man-container .waist#narrate-emotions:hover
@@ -182,8 +182,8 @@
 {
     width: 80px;
     
-    top: 294px;
-    left: 66px;
+    top: 295px;
+    left: 64px;
 }
 
 #landing-page-container #man-container .waist#side-effects:hover
@@ -210,8 +210,8 @@
 {
     width: 34px;
     
-    top: 336px;
-    left: 14px;
+    top: 337px;
+    left: 12px;
 }
 
 #landing-page-container #man-container .hands#gun-control:hover
@@ -223,8 +223,8 @@
 {
     width: 45px;
     
-    top: 243px;
-    left: 5px;
+    top: 242px;
+    left: 2px;
 }
 
 #landing-page-container #man-container .hands#writing:hover
@@ -245,8 +245,8 @@
 {
     width: 67px;
     
-    top: 349px;
-    left: 56px;
+    top: 351px;
+    left: 53px;
 }
 
 #landing-page-container #man-container .legs#explore-the-night:hover
@@ -261,8 +261,8 @@
 {
     width: 42px;
     
-    top: 607px;
-    left: 63px;
+    top: 612px;
+    left: 60px;
 }
 
 #landing-page-container #man-container .legs#second-hand:hover
@@ -276,8 +276,8 @@
 {
     width: 45px;
     
-    top: 581px;
-    left: 138px;
+    top: 587px;
+    left: 137px;
 }
 
 #landing-page-container #man-container .legs#stop-motion:hover
@@ -293,8 +293,8 @@
 {
     width: 50px;
     
-    top: 489px;
-    left: 59px;
+    top: 493px;
+    left: 55px;
 }
 
 #landing-page-container #man-container .legs#too-old:hover
@@ -307,8 +307,8 @@
 {
     width: 53px;
     
-    top: 655px;
-    left: 155px;
+    top: 661px;
+    left: 154px;
 }
 
 #landing-page-container #man-container .legs#web-chaser:hover

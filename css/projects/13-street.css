@@ -1,0 +1,21 @@
+#street .media-container img
+{
+    width:320px;
+    position:absolute;
+}
+
+#street .media-container #left
+{
+    left:0;
+}
+
+#street .media-container #right
+{
+    right:0;
+}
+
+#street .media-container #middle
+{
+   left:50%;
+    margin-left:-160px;
+}

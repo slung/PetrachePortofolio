@@ -1,36 +1,30 @@
 [
     {
-        "id": "second-hand",
-        "type": "print",
+        "id": "13-street",
+        "text": "13 STREET"
+    },{
+        "id": "shoot-your-mouth",
         "text": "SHOOT YOUR MOUTH"
     },{
         "id": "spoil-sports",
-        "type": "video",
-        "text": "NO OVER TWENTYONE SPOILSPORTS"
+        "text": "NO OVER 21 SPOILSPORTS"
     },{
-        "id": "second-hand",
-        "type": "video",
-        "text": "SECOND HAND APP STORE",
-        "src": "//player.vimeo.com/video/64684197"
+        "id": "unicef-second-hand",
+        "text": "SECOND HAND APP STORE"
     },{
         "id": "feel-horror",
-        "type": "print",
         "text": "FEEL HORROR"
     },{
-        "id": "park-your-sentences",
-        "type": "print",
+        "id": "volkswagen-park-your-sentences",
         "text": "PARK YOUR SENTENCES"
     },{
-        "id": "wanted",
-        "type": "print",
-        "text": "WANTED NY NYPD"
+        "id": "nypd-wanted",
+        "text": "WANTED BY NYPD"
     },{
         "id": "fun-ships",
-        "type": "print",
         "text": "THE FUN SHIPS"
     },{
         "id": "web-chaser",
-        "type": "print",
         "text": "EXPLORO THE WEB CHASER"
     }
 ]

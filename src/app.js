@@ -1,17 +1,4 @@
 /* App Module */
-
-//var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap']).
-//  config(['$routeProvider', function($routeProvider, $locationProvider) {
-//  $routeProvider.
-//      when('/landing-page', {templateUrl: 'partials/landing-page.html',   controller: 'LandingPageCtrl'}).
-//  	  when('/home', {templateUrl: 'partials/home.html',   controller: 'HomeCtrl'}).
-//      when('/about', {templateUrl: 'partials/about.html',   controller: 'AboutCtrl'}).
-//      when('/contact', {templateUrl: 'partials/contact.html', controller: 'ContactCtrl'}).
-//      otherwise({redirectTo: '/landing-page'});
-//      
-//      $locationProvider.html5Mode(true);
-//}]);
-
 var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'],
   function($routeProvider, $locationProvider) {
       
@@ -25,9 +12,9 @@ var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ngAnimate', 'ui.
       controller: HomeCtrl
     });
       
-    $routeProvider.when('/work', {
-      templateUrl: 'partials/work.html',
-      controller: WorkCtrl
+    $routeProvider.when('/projects', {
+      templateUrl: 'partials/projects.html',
+      controller: ProjectsCtrl
     });
       
     $routeProvider.when('/about', {
@@ -45,8 +32,13 @@ var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ngAnimate', 'ui.
       controller: ResumeCtrl
     });
       
+      $routeProvider.when('/projects/:project_id', {
+          controller: ProjectsCtrl,
+          templateUrl: function (params) {
+            return 'partials/projects/' + params.project_id + '.html'
+          }
+          
+        });
+      
     $routeProvider.otherwise({redirectTo: '/landing-page'})
-
-    // configure html5 to get links working on jsfiddle
-    $locationProvider.html5Mode(true);
 });
