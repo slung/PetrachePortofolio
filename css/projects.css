@@ -1,7 +1,7 @@
 #projects-container
 {
     width: 625px;
-    margin:70px auto;
+    margin:80px auto;
     
     font-family:'GothamBook';
     font-size:22px;
@@ -25,11 +25,34 @@
     cursor:pointer;
 }
 
-#projects-container .circle .text
+#projects-container .circle .title
 {
-    width: 190px;
+    width: 187px;
+    font-family:'IrmaBlack';  
+    font-size:20px;
+    
     opacity:1;
-    margin: 80px auto;
+    margin: 55px auto 30px auto;
+}
+
+#projects-container .circle .brand
+{
+    width: 200px;
+    font-family:'GothamBold';
+    font-size: 15px;
+    
+    line-height:15px;
+    
+    opacity:1;
+}
+
+#projects-container .circle .environment
+{
+    width: 200px;
+    font-family:'GothamBook';
+    font-size:14px;
+    
+    opacity:1;
 }
 
 .project
@@ -87,7 +110,7 @@
 {
     width:100%;
     height: 10px;
-    background-image:url('../images/site/dotted-lines.png');
+    background-image:url('../images/site/dotted-lines-small.png');
     background-repeat:repeat-x;
     
     margin:20px 0;

@@ -10,10 +10,27 @@
     right: 0px;
     left: 0px;
     
-    font-family:'GothamBold';
-    font-size:28px;
+    font-family: 'IrmaBlack';
+    font-size: 40px;
+    line-height: 55px;
     
     margin: auto 0;
+}
+
+#home-container #menu-left
+{
+    margin: 135px 0 0 80px;
+}
+
+#home-container #menu-left .menu-item
+{
+    opacity:0.6;
+}
+
+#home-container #menu-left .menu-item:hover
+{
+    opacity:1;
+    cursor:pointer;
 }
 
 #home-container #man
@@ -25,52 +42,4 @@
     left: 50%;
     margin-left: -129px;
     margin-top: 3px;
-}
-
-#home-container .menu-item
-{
-    width: 115px;
-    opacity:0.8;
-}
-
-#home-container .menu-item:hover
-{
-    opacity:1;
-    cursor:pointer;
-}
-
-#home-container #menu-left
-{
-    width: 50%;
-    text-align: right;
-    margin-top: 315px;
-}
-
-#home-container #menu-left .menu-item
-{
-    margin-right:25px;
-    text-align: left;
-}
-
-#home-container #menu-left #about
-{
-    margin-right:145px;
-}
-
-#home-container #menu-right
-{
-    width:50%;
-    text-align:left;
-    margin-top: 315px;
-}
-
-#home-container #menu-right .menu-item
-{
-    margin-left:25px;
-    text-align: right;
-}
-
-#home-container #menu-right #contact
-{
-    margin-left:145px;
 }

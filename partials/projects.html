@@ -1,5 +1,7 @@
 <div id="projects-container">
     <div ng-repeat="project in projects" id="{{project.id}}"  class="circle yui3-u" ng-click="onProjectClick(project)">
-        <div class="text">{{project.text}}</div>
+        <div class="title">{{project.title}}</div>
+        <div class="brand">{{project.brand}}</div>
+        <div class="environment">{{project.environment}}</div>
     </div>
 </div>

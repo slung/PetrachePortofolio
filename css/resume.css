@@ -1,0 +1,57 @@
+#resume-container
+{
+    margin:80px 0 0 80px;
+}
+
+#resume-container #left
+{
+    margin-right:70px;
+}
+
+#resume-container #left .view-title
+{
+    font-family:'IrmaBlack';
+    font-size: 40px;
+    line-height:40px;
+}
+
+#resume-container #left .dotted-lines
+{
+    width:178px;
+    height: 10px;
+    background-image:url('../images/site/dotted-lines.png');
+    background-repeat:repeat-x;
+    
+    margin:10px 0 50px 0;
+}
+
+#resume-container #left .name
+{
+    font-family:'IrmaBlack';
+    font-size: 24px;
+}
+
+#resume-container #left .job
+{
+    font-family:'IrmaBlack';
+    font-size: 15px;
+    margin-bottom:15px;
+}
+
+#resume-container #left #details-container
+{
+    font-family:'GothamBold';
+    font-size:9px;
+    line-height:12px;
+}
+
+#resume-container #left #details-container .item
+{
+    display:block;
+}
+
+#resume-container #download
+{
+    margin-left:20px;
+    vertical-align:bottom;
+}

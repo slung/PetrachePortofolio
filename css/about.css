@@ -1,0 +1,42 @@
+#about-container
+{
+    margin:80px 0 0 80px;
+}
+
+#about-container #left
+{
+    width:765px;
+}
+
+#about-container .view-title
+{
+    font-family:'IrmaBlack';
+    font-size: 40px;
+    line-height:40px;
+}
+
+#about-container .dotted-lines
+{
+    width:178px;
+    height: 10px;
+    background-image:url('../images/site/dotted-lines.png');
+    background-repeat:repeat-x;
+    
+    margin:10px 0 50px 0;
+}
+
+#about-container .pre-description-title
+{
+    margin:20px 0;
+    
+    font-family:'IrmaBlack';
+    font-size: 20px;
+    line-height:20px;
+}
+
+#about-container .description
+{
+    font-family:'GothamBold';
+    font-size: 13px;
+    line-height:17px;
+}

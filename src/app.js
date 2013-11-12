@@ -1,5 +1,5 @@
 /* App Module */
-var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ngAnimate', 'ui.bootstrap'],
+var myApp = angular.module('petrachePortfolioApp', ['ngRoute', 'ngAnimate'],
   function($routeProvider, $locationProvider) {
       
     $routeProvider.when('/landing-page', {
