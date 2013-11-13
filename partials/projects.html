@@ -1,4 +1,5 @@
 <div id="projects-container">
+    <img id="back-btn" class="yui3-u" src="../images/site/back-btn.png" ng-click="changeView('home')" title="Go back home"/>
     <div ng-repeat="project in projects" id="{{project.id}}"  class="circle yui3-u" ng-click="onProjectClick(project)">
         <div class="title">{{project.title}}</div>
         <div class="brand">{{project.brand}}</div>
