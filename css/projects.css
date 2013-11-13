@@ -9,9 +9,10 @@
 
 #projects-container #back-btn
 {
-    position:absolute;
-    top:80px;
-    left:80px;
+    position: fixed;
+    top: 50%;
+    left: 20px;
+    margin-top: -40px;
 }
 
 #projects-container #back-btn:hover

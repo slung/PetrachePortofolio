@@ -52,7 +52,9 @@
 
 #resume-container #left #back-btn
 {
-    margin-top: 100px;
+    position: fixed;
+    top: 50%;
+    margin-top: -40px;
 }
 
 #resume-container #left #back-btn:hover

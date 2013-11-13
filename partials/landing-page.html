@@ -5,25 +5,25 @@
         <img id="watch" src="../images/site/watch.png" title="Pressed with time? Click me!" ng-click="changeView('home')"/>
         
         <!--Head images-->
-        <img id="listen" class="dynamic-words head" src="../images/site/dynamic-words/head/listen.png"/>
-        <img id="story-teller" class="dynamic-words head" src="../images/site/dynamic-words/head/story-teller.png" />
+        <img id="listen" class="dynamic-words" ng-src="{{mouseOverListen == false && '../images/site/dynamic-words/listen.png' || '../images/site/dynamic-words/listen-hover.png'}}" ng-mouseover="onListenMouseover()" ng-mouseleave="onListenMouseleave()"/>
+        <img id="story-teller" class="dynamic-words" src="../images/site/dynamic-words/story-teller.png" />
 
         <!--Waist images-->
-        <img id="know-why" class="dynamic-words waist" src="../images/site/dynamic-words/waist/know-why.png" />
-        <img id="my-human-truths" class="dynamic-words waist" src="../images/site/dynamic-words/waist/my-human-truths.png" />
-        <img id="narrate-emotions" class="dynamic-words waist" src="../images/site/dynamic-words/waist/narrate-emotions.png" />
-        <img id="no-spoil-sports" class="dynamic-words waist" src="../images/site/dynamic-words/waist/no-spoil-sports.png" />
-        <img id="side-effects" class="dynamic-words waist" src="../images/site/dynamic-words/waist/side-effects.png" />
+        <img id="know-why" class="dynamic-words" src="../images/site/dynamic-words/know-why.png" />
+        <img id="my-human-truths" class="dynamic-words" src="../images/site/dynamic-words/my-human-truths.png" />
+        <img id="narrate-emotions" class="dynamic-words" src="../images/site/dynamic-words/narrate-emotions.png" />
+        <img id="no-spoil-sports" class="dynamic-words" src="../images/site/dynamic-words/no-spoil-sports.png" ng-click="changeView('projects/thomas-kemper-spoilsports')"/>
+        <img id="side-effects" class="dynamic-words" src="../images/site/dynamic-words/side-effects.png" />
         
         <!--Hands images-->
-        <img id="gun-control" class="dynamic-words hands" src="../images/site/dynamic-words/hands/gun-control.png" />
-        <img id="writing" class="dynamic-words hands" src="../images/site/dynamic-words/hands/writing.png" />
+        <img id="gun-control" class="dynamic-words" ng-src="{{mouseOverGunControl == false && '../images/site/dynamic-words/gun-control.png' || '../images/site/dynamic-words/gun-control-hover.png'}}" ng-mouseover="onGunControlMouseover()" ng-mouseleave="onGunControlMouseleave()" />
+        <img id="writing" class="dynamic-words" ng-src="{{mouseOverWriting == false && '../images/site/dynamic-words/writing.png' || '../images/site/dynamic-words/writing-hover.png'}}" ng-mouseover="onWritingMouseover()" ng-mouseleave="onWritingMouseleave()"  />
         
         <!--Legs images-->
-        <img id="explore-the-night" class="dynamic-words legs" src="../images/site/dynamic-words/legs/explore-the-night.png" />
-        <img id="second-hand" class="dynamic-words legs" src="../images/site/dynamic-words/legs/second-hand.png" />
-        <img id="stop-motion" class="dynamic-words legs" src="../images/site/dynamic-words/legs/stop-motion.png" />
-        <img id="too-old" class="dynamic-words legs" src="../images/site/dynamic-words/legs/too-old.png" />
-        <img id="web-chaser" class="dynamic-words legs" src="../images/site/dynamic-words/legs/web-chaser.png" />
+        <img id="explore-the-night" class="dynamic-words" src="../images/site/dynamic-words/explore-the-night.png" />
+        <img id="second-hand" class="dynamic-words" src="../images/site/dynamic-words/second-hand.png" ng-click="changeView('projects/unicef-second-hand')"/>
+        <img id="stop-motion" class="dynamic-words" src="../images/site/dynamic-words/stop-motion.png" />
+        <img id="too-old" class="dynamic-words" src="../images/site/dynamic-words/too-old.png" />
+        <img id="web-chaser" class="dynamic-words" ng-src="{{mouseOverWebChaser== false && '../images/site/dynamic-words/web-chaser.png' || '../images/site/dynamic-words/web-chaser-hover.png'}}" ng-mouseover="onWebChaserMouseover()" ng-mouseleave="onWebChaserMouseleave()"  ng-click="changeView('projects/mattel-web-chaser')"/>
     </div>
 </div>

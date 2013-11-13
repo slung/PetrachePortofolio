@@ -5,7 +5,9 @@
 
 #about-container #back-btn
 {
-    margin: 350px 50px 0 0;
+    position: fixed;
+    top: 50%;
+    margin-top:-40px;
 }
 
 #about-container #back-btn:hover
@@ -16,6 +18,7 @@
 #about-container #left
 {
     width:765px;
+    margin-left: 130px;
 }
 
 #about-container .view-title
