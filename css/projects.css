@@ -1,7 +1,8 @@
 #projects-container
 {
     width: 625px;
-    margin:80px auto;
+    margin:0 auto;
+    padding: 80px 0;
     
     font-family:'GothamBook';
     font-size:22px;
@@ -30,6 +31,7 @@
     text-align: center;
     background-color: rgba(255,255,255,0.3);
     margin: 0 5px 25px 0;
+    position:relative;
 }
 
 #projects-container .circle:hover
@@ -50,10 +52,13 @@
 
 #projects-container .circle .brand
 {
+    position: absolute;
+    bottom: 45px;
+    
     width: 200px;
+    
     font-family:'GothamBold';
     font-size: 15px;
-    
     line-height:15px;
     
     opacity:1;
@@ -61,7 +66,11 @@
 
 #projects-container .circle .environment
 {
+    position: absolute;
+    bottom: 23px;
+    
     width: 200px;
+    
     font-family:'GothamBook';
     font-size:14px;
     
@@ -72,14 +81,17 @@
 {
     width: 1000px;
     height: 100%;
-    margin: 80px auto;
+    
+    margin: 0 auto;
+    padding: 80px 0;
 }
 
 .project #back-btn
 {
-    position:absolute;
-    top: 80px;
-    left: 20px;
+    position: fixed;
+    top: 50%;
+    left:20px;
+    margin-top:-40px;
 }
 
 .project #back-btn:hover

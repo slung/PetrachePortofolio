@@ -1,11 +1,11 @@
 #resume-container
 {
-    margin:80px 0 0 80px;
+    padding: 80px;
 }
 
 #resume-container #left
 {
-    margin-right:70px;
+    margin:0 70px 0 70px;
 }
 
 #resume-container #left .view-title
@@ -54,6 +54,7 @@
 {
     position: fixed;
     top: 50%;
+    left:20px;
     margin-top: -40px;
 }
 

@@ -19,7 +19,9 @@
 
 #home-container #left
 {
-    margin: 135px 127px 0 80px;
+    position:absolute;
+    top:135px;
+    left:80px;
 }
 
 #home-container #left .menu-item
@@ -39,6 +41,8 @@
     height:653px;
     
     position:relative;
+    
+    margin:0 auto;
 }
 
 #home-container #right #watch

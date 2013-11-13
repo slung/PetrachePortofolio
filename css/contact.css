@@ -1,12 +1,13 @@
 #contact-container
 {
-    margin:80px 0 0 30px;
+    padding:80px;
 }
 
 #contact-container #back-btn
 {
     position: fixed;
     top: 50%;
+    left:20px;
     margin-top:-40px;
 }
 
@@ -17,7 +18,7 @@
 
 #contact-container #content
 {
-    margin-left: 130px;
+    margin-left: 70px;
 }
 
 #contact-container .contact-text
@@ -38,7 +39,7 @@
 
 #contact-container .dotted-lines
 {
-    width:178px;
+    width:200px;
     height: 10px;
     background-image:url('../images/site/dotted-lines.png');
     background-repeat:repeat-x;
