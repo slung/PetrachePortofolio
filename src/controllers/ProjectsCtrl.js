@@ -31,11 +31,6 @@ function ProjectsCtrl($scope, $http, $location, $routeParams) {
         
         switch(event.keyCode)
         {
-            //BACKSPACE key => go to Projects view
-            case 8: {
-                $location.path('projects');
-                break;
-            }
             //RIGHT arrow
             case 39: {
                 var nextProjectIndex = currentProjectIndex+1;
@@ -66,7 +61,11 @@ function ProjectsCtrl($scope, $http, $location, $routeParams) {
         for (var i=0; i<$scope.projects.length; i++)
             if ($scope.projects[i].id == projectId)
                 return i;
-    }
+    };
+    
+     $scope.changeView = function (view) {
+        $location.path(view);
+    };
 }
 
 myApp.controller('ProjectsCtrl', ['$scope', '$routeParams', '$location', ProjectsCtrl]);

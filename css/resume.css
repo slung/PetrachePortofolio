@@ -50,6 +50,16 @@
     display:block;
 }
 
+#resume-container #left #back-btn
+{
+    margin-top: 100px;
+}
+
+#resume-container #left #back-btn:hover
+{
+    cursor:pointer;
+}
+
 #resume-container #download
 {
     margin-left:20px;

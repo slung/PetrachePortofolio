@@ -3,7 +3,7 @@
 #landing-page-container
 {
     width: 100%;
-    height: 675px;
+    height: 654px;
     
     position: absolute;
     top: 0px;
@@ -16,8 +16,8 @@
 
 #landing-page-container #man-container
 {
-    width: 250px;
-    height: 675px;
+    width: 240px;
+    height: 654px;
     
     position: relative;
     
@@ -26,8 +26,6 @@
 
 #landing-page-container #man-container #man
 {
-    width: 250px !important;
-    
     position: absolute;
 }
 
@@ -36,8 +34,8 @@
     width: 31px;
     
     position:absolute;
-    top: 322px;
-    left: -3px;
+    top: 309px;
+    left: -4px;
 }
 
 #landing-page-container #man-container #watch:hover
@@ -81,10 +79,10 @@
 
 #landing-page-container #man-container .head#listen
 {
-    width: 11px;
+    width: 10px;
     
-    top: 47px;
-    left: 151px;
+    top: 45px;
+    left: 146px;
 }
 
 #landing-page-container #man-container .head#listen:hover
@@ -102,8 +100,8 @@
 {
     width: 64px;
     
-    top: 78px;
-    left: 89px;
+    top: 75px;
+    left: 84px;
 }
 
 #landing-page-container #man-container .head#story-teller:hover
@@ -120,8 +118,8 @@
 {
     width: 43px;
     
-    top: 219px;
-    left: 146px;
+    top: 209px;
+    left: 137px;
 }
 
 #landing-page-container #man-container .waist#know-why:hover
@@ -132,10 +130,10 @@
 
 #landing-page-container #man-container .waist#my-human-truths
 {
-    width: 43px;
+    width: 40px;
     
-    top: 154px;
-    left: 125px;
+    top: 148px;
+    left: 120px;
 }
 
 #landing-page-container #man-container .waist#my-human-truths:hover
@@ -150,8 +148,8 @@
 {
     width: 53px;
     
-    top: 170px;
-    left: 170px;
+    top: 162px;
+    left: 162px;
 }
 
 #landing-page-container #man-container .waist#narrate-emotions:hover
@@ -165,8 +163,8 @@
 {
     width: 33px;
     
-    top: 219px;
-    left: 112px;
+    top: 208px;
+    left: 104px;
 
 }
 
@@ -182,8 +180,8 @@
 {
     width: 80px;
     
-    top: 295px;
-    left: 64px;
+    top: 283px;
+    left: 60px;
 }
 
 #landing-page-container #man-container .waist#side-effects:hover
@@ -208,9 +206,9 @@
 
 #landing-page-container #man-container .hands#gun-control
 {
-    width: 34px;
+    width: 31px;
     
-    top: 337px;
+    top: 325px;
     left: 12px;
 }
 
@@ -221,10 +219,10 @@
 
 #landing-page-container #man-container .hands#writing
 {
-    width: 45px;
+    width: 44px;
     
-    top: 242px;
-    left: 2px;
+    top: 232px;
+    left: 1px;
 }
 
 #landing-page-container #man-container .hands#writing:hover
@@ -245,8 +243,8 @@
 {
     width: 67px;
     
-    top: 351px;
-    left: 53px;
+    top: 336px;
+    left: 50px;
 }
 
 #landing-page-container #man-container .legs#explore-the-night:hover
@@ -259,10 +257,10 @@
 
 #landing-page-container #man-container .legs#second-hand
 {
-    width: 42px;
+    width: 40px;
     
-    top: 612px;
-    left: 60px;
+    top: 588px;
+    left: 58px;
 }
 
 #landing-page-container #man-container .legs#second-hand:hover
@@ -274,10 +272,10 @@
 
 #landing-page-container #man-container .legs#stop-motion
 {
-    width: 45px;
+    width: 43px;
     
-    top: 587px;
-    left: 137px;
+    top: 563px;
+    left: 131px;
 }
 
 #landing-page-container #man-container .legs#stop-motion:hover
@@ -291,10 +289,10 @@
 
 #landing-page-container #man-container .legs#too-old
 {
-    width: 50px;
+    width: 46px;
     
-    top: 493px;
-    left: 55px;
+    top: 473px;
+    left: 54px;
 }
 
 #landing-page-container #man-container .legs#too-old:hover
@@ -305,10 +303,10 @@
 
 #landing-page-container #man-container .legs#web-chaser
 {
-    width: 53px;
+    width: 51px;
     
-    top: 661px;
-    left: 154px;
+    top: 634px;
+    left: 148px;
 }
 
 #landing-page-container #man-container .legs#web-chaser:hover

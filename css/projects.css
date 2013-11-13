@@ -62,6 +62,18 @@
     margin: 80px auto;
 }
 
+.project #back-btn
+{
+    position:absolute;
+    top: 80px;
+    left: 20px;
+}
+
+.project #back-btn:hover
+{
+    cursor:pointer;
+}
+
 .project .bold
 {
     font-weight: bold;
@@ -83,6 +95,7 @@
 .project .title-container .logo
 {
     width:80px;
+    margin-top:25px;
 }
 
 .project .subtitle-container

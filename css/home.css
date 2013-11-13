@@ -2,7 +2,7 @@
 
 #home-container
 {
-    height: 675px;
+    height: 653px;
     
     position: absolute;
     top: 0px;
@@ -17,29 +17,37 @@
     margin: auto 0;
 }
 
-#home-container #menu-left
+#home-container #left
 {
-    margin: 135px 0 0 80px;
+    margin: 135px 127px 0 80px;
 }
 
-#home-container #menu-left .menu-item
+#home-container #left .menu-item
 {
     opacity:0.6;
 }
 
-#home-container #menu-left .menu-item:hover
+#home-container #left .menu-item:hover
 {
     opacity:1;
     cursor:pointer;
 }
 
-#home-container #man
+#home-container #right
 {
-    width: 250px !important;
-    height: 675px !important;
+    width:240px;
+    height:653px;
+    
+    position:relative;
+}
+
+#home-container #right #watch
+{
+    width: 31px;
     
     position:absolute;
-    left: 50%;
-    margin-left: -129px;
-    margin-top: 3px;
+    top: 309px;
+    left: -4px;
+    
+    cursor:pointer;
 }

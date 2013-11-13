@@ -1,6 +1,16 @@
 #about-container
 {
-    margin:80px 0 0 80px;
+    margin:80px 0 0 30px;
+}
+
+#about-container #back-btn
+{
+    margin: 350px 50px 0 0;
+}
+
+#about-container #back-btn:hover
+{
+    cursor:pointer;
 }
 
 #about-container #left
