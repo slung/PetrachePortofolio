@@ -1,29 +1,31 @@
 <div id="landing-page-container">
 	
+    <img id="logo" src="../images/site/logo-small.png" />
+    
     <div id="man-container">
         <img id="man" src="../images/site/static-words-man-small.png" />
         <img id="watch" src="../images/site/watch.png" title="Pressed with time? Click me!" ng-click="changeView('home')"/>
         
         <!--Head images-->
-        <img id="listen" class="dynamic-words" ng-src="{{mouseOverListen == false && '../images/site/dynamic-words/listen.png' || '../images/site/dynamic-words/listen-hover.png'}}" ng-mouseover="onListenMouseover()" ng-mouseleave="onListenMouseleave()"/>
-        <img id="story-teller" class="dynamic-words" src="../images/site/dynamic-words/story-teller.png" />
+        <img id="listen" class="dynamic-words" ng-src="{{mouseOverListen == false && '../images/site/dynamic-words/listen.png' || '../images/site/dynamic-words/listen-hover.png'}}" ng-mouseover="onListenMouseover()" ng-mouseleave="onListenMouseleave()" ng-click="changeView('projects/volkswagen-park-your-sentences')" />
+        <img id="story-teller" class="dynamic-words" src="../images/site/dynamic-words/story-teller.png" ng-click="changeView('projects/personal')" />
 
         <!--Waist images-->
-        <img id="know-why" class="dynamic-words" src="../images/site/dynamic-words/know-why.png" />
-        <img id="my-human-truths" class="dynamic-words" src="../images/site/dynamic-words/my-human-truths.png" />
-        <img id="narrate-emotions" class="dynamic-words" src="../images/site/dynamic-words/narrate-emotions.png" />
+        <img id="know-why" class="dynamic-words" src="../images/site/dynamic-words/know-why.png" ng-click="changeView('resume')"/>
+        <img id="my-human-truths" class="dynamic-words" src="../images/site/dynamic-words/my-human-truths.png" ng-click="changeView('contact')"/>
+        <a href="http://alexpetrache.tumblr.com/" target="_blank"><img id="narrate-emotions" class="dynamic-words" src="../images/site/dynamic-words/narrate-emotions.png" /></a>
         <img id="no-spoil-sports" class="dynamic-words" src="../images/site/dynamic-words/no-spoil-sports.png" ng-click="changeView('projects/thomas-kemper-spoilsports')"/>
-        <img id="side-effects" class="dynamic-words" src="../images/site/dynamic-words/side-effects.png" />
+        <img id="side-effects" class="dynamic-words" src="../images/site/dynamic-words/side-effects.png" ng-click="changeView('projects/13-street')" />
         
         <!--Hands images-->
-        <img id="gun-control" class="dynamic-words" ng-src="{{mouseOverGunControl == false && '../images/site/dynamic-words/gun-control.png' || '../images/site/dynamic-words/gun-control-hover.png'}}" ng-mouseover="onGunControlMouseover()" ng-mouseleave="onGunControlMouseleave()" />
-        <img id="writing" class="dynamic-words" ng-src="{{mouseOverWriting == false && '../images/site/dynamic-words/writing.png' || '../images/site/dynamic-words/writing-hover.png'}}" ng-mouseover="onWritingMouseover()" ng-mouseleave="onWritingMouseleave()"  />
+        <img id="gun-control" class="dynamic-words" ng-src="{{mouseOverGunControl == false && '../images/site/dynamic-words/gun-control.png' || '../images/site/dynamic-words/gun-control-hover.png'}}" ng-mouseover="onGunControlMouseover()" ng-mouseleave="onGunControlMouseleave()" ng-click="changeView('projects/shoot-your-mouth')" />
+        <img id="writing" class="dynamic-words" ng-src="{{mouseOverWriting == false && '../images/site/dynamic-words/writing.png' || '../images/site/dynamic-words/writing-hover.png'}}" ng-mouseover="onWritingMouseover()" ng-mouseleave="onWritingMouseleave()" ng-click="changeView('about')" />
         
         <!--Legs images-->
-        <img id="explore-the-night" class="dynamic-words" src="../images/site/dynamic-words/explore-the-night.png" />
+        <img id="explore-the-night" class="dynamic-words" src="../images/site/dynamic-words/explore-the-night.png" ng-click="changeView('projects/jagermeister-make-your-mark')" />
         <img id="second-hand" class="dynamic-words" src="../images/site/dynamic-words/second-hand.png" ng-click="changeView('projects/unicef-second-hand')"/>
-        <img id="stop-motion" class="dynamic-words" src="../images/site/dynamic-words/stop-motion.png" />
-        <img id="too-old" class="dynamic-words" src="../images/site/dynamic-words/too-old.png" />
+        <img id="stop-motion" class="dynamic-words" src="../images/site/dynamic-words/stop-motion.png" ng-click="changeView('projects/nypd-wanted')" />
+        <img id="too-old" class="dynamic-words" src="../images/site/dynamic-words/too-old.png" ng-click="changeView('projects/carnival-fun-ships')" />
         <img id="web-chaser" class="dynamic-words" ng-src="{{mouseOverWebChaser== false && '../images/site/dynamic-words/web-chaser.png' || '../images/site/dynamic-words/web-chaser-hover.png'}}" ng-mouseover="onWebChaserMouseover()" ng-mouseleave="onWebChaserMouseleave()"  ng-click="changeView('projects/mattel-web-chaser')"/>
     </div>
 </div>
