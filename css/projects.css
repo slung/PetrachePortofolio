@@ -116,7 +116,7 @@
     font-family:'IrmaBlack';
     font-size:45px;
     
-    margin: 20px 30px 20px 0;
+    margin: 20px 0 20px 0;
 }
 
 .project .title-container .logo
@@ -155,3 +155,6 @@
     
     margin:20px 0;
 }
+
+/* Project-specific CSS */
+

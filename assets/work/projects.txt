@@ -56,7 +56,7 @@
         "environment": "Product Innovation"
     },{
         "id": "personal",
-        "title": "PERSONAL (NEW)",
+        "title": "PERSONAL",
         "brand": "",
         "environment": ""
     }

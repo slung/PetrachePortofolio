@@ -23,7 +23,7 @@
 #landing-page-container #man-container
 {
     width: 240px;
-    height: 654px;
+    height: 653px;
     
     position: relative;
     
@@ -295,6 +295,35 @@
 }
 
 #landing-page-container #man-container #web-chaser:hover
+{
+    width: 90px;
+}
+
+#landing-page-container #man-container #smart
+{
+    width: 43px;
+    
+    top: 1px;
+    left: 94px;
+}
+
+#landing-page-container #man-container #smart:hover
+{
+    width: 90px;
+    
+    top: -10px;
+    left: 72px;
+}
+
+#landing-page-container #man-container #underdog-attitude
+{
+    width: 49px;
+    
+    top: 116px;
+    left: 69px;
+}
+
+#landing-page-container #man-container #underdog-attitude:hover
 {
     width: 90px;
 }
