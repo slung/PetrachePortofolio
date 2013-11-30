@@ -5,13 +5,10 @@
 
 #nypd-wanted .title-container .title #left
 {
-    width:170px;
-    line-height:60px !important;
+    width:135px;
 }
 
 #nypd-wanted .title-container .title #right
 {
-    width:800px;
-    line-height:60px !important;
-    font-size: 41px;
+    width:715px;
 }
