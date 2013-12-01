@@ -9,3 +9,8 @@
     margin-right: 20px;
     margin-top: 23px;
 }
+
+#projects-container #unicef-second-hand
+{
+    background-image:url("../../images/portofolio/unicef-second-hand/circle-bg.png");
+}

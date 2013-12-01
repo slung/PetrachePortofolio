@@ -1,0 +1,15 @@
+#street .title-container .title
+{
+    margin-right:30px;
+}
+
+#street .media-container img
+{
+    margin: 0 auto;
+    display: block;
+}
+
+#projects-container #feel-horror-13-street
+{
+    background-image:url("../../images/portofolio/13-street/circle-bg.png");
+}
