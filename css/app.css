@@ -54,20 +54,17 @@ body
 	background-color: #000000;
 }
 
-#footer
+.footer
 {
     width:300px;
-    
-    position:absolute;
-    bottom:5px;
-    left:50%;
-    margin-left:-150px;
-    
     
     font-family:'GothamBook';
     font-size:10px;
     color: #FFFFFF;
     text-align:center;
+    
+    margin: 0 auto;
+    margin-bottom: 5px;
 }
 
  /*Animations */ 

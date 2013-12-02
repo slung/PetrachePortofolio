@@ -10,18 +10,14 @@ myApp.directive('projectKeypress', function($document) {
         $document.keydown(handler);
     }
 })
-//.directive('footer',['$timeout', function (timer) {
-//    /* Note the injection of the $timeout service */
-//    return {
-//        restrict: 'E',
-//        link: function (scope, elem, attrs, ctrl) {
-//             var replace = function (elem){
-//                var htmlText = 'Copyright &copy Alexandru Petrache ' + new Date().getFullYear() + '. All rights reserved.';
-//                elem.html(htmlText);
-//            }
-//             
-//            timer(replace(elem), 100);
-//        }
-//    }   
-//}]);
-    
+.directive('footer',function ($timeout) {
+    return {
+        restrict: 'E',
+        link: function (scope, elem, attrs, ctrl) {
+            $timeout(function (){
+                var htmlText = 'Copyright &copy Alexandru Petrache ' + new Date().getFullYear() + '. All rights reserved.';
+                jQuery(".footer").html(htmlText);
+            }, 0);
+        }
+    }   
+});
