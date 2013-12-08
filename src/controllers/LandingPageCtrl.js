@@ -1,5 +1,8 @@
 function LandingPageCtrl($scope, $routeParams, $location) {
     
+    //Send statistics to Google Analytics
+    ga('send', 'event', 'Pages', 'Landing Page');
+    
     $scope.mouseOverListen=false;
     $scope.mouseOverGunControl = false;
     $scope.mouseOverWebChaser = false;

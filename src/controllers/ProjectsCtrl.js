@@ -9,6 +9,9 @@ function ProjectsCtrl($scope, $http, $location, $routeParams) {
 			{
 				projects.push(data[i]);
 			}
+        
+            //Send statistics to Google Analytics
+            ga('send', 'event', 'Pages', 'Projects'); 
 		});
     
     //Send to project-dedicated page
@@ -18,6 +21,10 @@ function ProjectsCtrl($scope, $http, $location, $routeParams) {
     
     //Redirect to specified project view
     $scope.changeProject = function (project) {
+        
+         //Send statistics to Google Analytics
+         ga('send', 'event', 'Projects', project.id); 
+        
         var projectPath = 'projects/' + project.id;
         $location.path(projectPath);
     };
