@@ -3,6 +3,17 @@
     margin-bottom:15px;
 }
 
+#personal .media-container a
+{
+    color:#BC5353 !important;
+    opacity:0.7;
+}
+
+#personal .media-container a:hover
+{
+    opacity:1;
+}
+
 #personal .media-container .link
 {
     font-weight:bold;
