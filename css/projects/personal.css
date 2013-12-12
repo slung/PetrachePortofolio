@@ -3,6 +3,17 @@
     margin-bottom:15px;
 }
 
+#personal .media-container .link
+{
+    font-weight:bold;
+    display:block;
+}
+
+#personal .media-container .link.margin
+{
+    margin-bottom:10px;
+}
+
 #personal .media-container img
 {
     display: block;
